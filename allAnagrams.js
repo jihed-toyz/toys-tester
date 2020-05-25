@@ -12,24 +12,25 @@
   * console.log(anagrams); // [ 'abc', 'acb', 'bac', 'bca', 'cab', 'cba' ]
   */
 
-// var allAnagrams = function(string) {
-//   // Your code here.
-// };
-
 var allAnagrams = function(string) {
   // Your code here.
+ return []
+};
 
-  var uniqueOutput = {};
+// var allAnagrams = function(string) {
+//   // Your code here.
 
-  (function anagram (ana, str) {
-    if (str === '') { uniqueOutput[ana] = 1; }
+//   var uniqueOutput = {};
 
-    for (var i = 0; i < str.length; i++) {
-      anagram(ana + str[i], str.slice(0, i) + str.slice(i + 1));
-    }
-  })('', string);
+//   (function anagram (ana, str) {
+//     if (str === '') { uniqueOutput[ana] = 1; }
 
-  return Object.keys(uniqueOutput);
-  };
+//     for (var i = 0; i < str.length; i++) {
+//       anagram(ana + str[i], str.slice(0, i) + str.slice(i + 1));
+//     }
+//   })('', string);
+
+//   return Object.keys(uniqueOutput);
+//   };
 
 module.exports = allAnagrams
