@@ -16,4 +16,20 @@ var allAnagrams = function(string) {
   // Your code here.
 };
 
+// var allAnagrams = function(string) {
+//   // Your code here.
+
+//   var uniqueOutput = {};
+
+//   (function anagram (ana, str) {
+//     if (str === '') { uniqueOutput[ana] = 1; }
+
+//     for (var i = 0; i < str.length; i++) {
+//       anagram(ana + str[i], str.slice(0, i) + str.slice(i + 1));
+//     }
+//   })('', string);
+
+//   return Object.keys(uniqueOutput);
+//   };
+
 module.exports = allAnagrams

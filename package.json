@@ -1,0 +1,24 @@
+{
+  "name": "toys-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "allAnagrams.js",
+  "scripts": {
+    "test": "mocha allAnagrams.test || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jihed-toyz/toys-tester.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jihed-toyz/toys-tester/issues"
+  },
+  "homepage": "https://github.com/jihed-toyz/toys-tester#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0"
+  }
+}

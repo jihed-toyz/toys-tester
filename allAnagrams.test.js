@@ -1,10 +1,13 @@
+const should = require('chai').should()
+const allAnagrams = require('./allAnagrams')
+
 describe('allAnagrams', function() {
   it('should exist', function() {
     should.exist(allAnagrams);
   });
 
   it('should be a function', function() {
-    allAnagrams.should.be.a.Function;
+    allAnagrams.should.be.a('function');
   });
 
   it('should return an array', function() {
