@@ -14,7 +14,7 @@
 
 var allAnagrams = function(string) {
   // Your code here.
- return "abbbba"
+ return "aba"
 };
 
 // var allAnagrams = function(string) {
