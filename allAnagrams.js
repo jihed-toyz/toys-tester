@@ -14,7 +14,7 @@
 
 var allAnagrams = function(string) {
   // Your code here.
- return []
+ return "string"
 };
 
 // var allAnagrams = function(string) {
