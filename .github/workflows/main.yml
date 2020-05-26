@@ -1,7 +1,7 @@
 name: Managing pull requests
 on:
   pull_request:  
-    branches-ignore: [master]    
+    branches: [master,br1,br2]    
 jobs:
   tester:
     runs-on: ubuntu-latest
