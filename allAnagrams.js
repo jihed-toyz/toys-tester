@@ -19,7 +19,6 @@
 
 var allAnagrams = function(string) {
   // Your code here.
-
   var uniqueOutput = {};
 
   (function anagram (ana, str) {
