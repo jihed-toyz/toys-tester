@@ -29,7 +29,6 @@ var allAnagrams = function(string) {
       anagram(ana + str[i], str.slice(0, i) + str.slice(i + 1));
     }
   })('', string);
-
   return Object.keys(uniqueOutput);
   };
 
